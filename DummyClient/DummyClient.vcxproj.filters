@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File">
+      <UniqueIdentifier>{68e55c9b-42bb-4429-ae64-915b459ce84f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proto">
+      <UniqueIdentifier>{50c4b9a9-04b3-4fe2-acf0-638217180fe7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DummyClient.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerProtocolManager.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="Proto.pb.cc">
+      <Filter>Proto</Filter>
+    </ClCompile>
+    <ClCompile Include="Struct.pb.cc">
+      <Filter>Proto</Filter>
+    </ClCompile>
+    <ClCompile Include="Enum.pb.cc">
+      <Filter>Proto</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerSession.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerSessionManager.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerProtocolManager.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.pb.h">
+      <Filter>Proto</Filter>
+    </ClInclude>
+    <ClInclude Include="Proto.pb.h">
+      <Filter>Proto</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.pb.h">
+      <Filter>Proto</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerSession.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerSessionManager.h">
+      <Filter>File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Protobuf\protoc3.18.x\bin\Enum.proto">
+      <Filter>Proto</Filter>
+    </None>
+    <None Include="..\Protobuf\protoc3.18.x\bin\Proto.proto">
+      <Filter>Proto</Filter>
+    </None>
+    <None Include="..\Protobuf\protoc3.18.x\bin\Struct.proto">
+      <Filter>Proto</Filter>
+    </None>
+    <None Include="..\Protobuf\protoc3.18.x\bin\ProtoGenerator.bat">
+      <Filter>Proto</Filter>
+    </None>
+  </ItemGroup>
+</Project>

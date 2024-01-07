@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File">
+      <UniqueIdentifier>{768cdb25-c53b-4e84-9130-abfa263906d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GlobalVar.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="IocpBase.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="IocpEvent.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="Listener.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkHeader.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="Service.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="Session.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketManager.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadManager.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadVar.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketAddress.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="RecvBuffer.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="SendBuffer.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="LockBasedQueue.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskQueue.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskQueueManager.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskTimer.h">
+      <Filter>File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GlobalVar.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="IocpBase.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="IocpEvent.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="Listener.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkHeader.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="Service.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="Session.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketManager.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadManager.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadVar.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketAddress.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="RecvBuffer.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="SendBuffer.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="LockBasedQueue.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskQueue.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskQueueManager.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskTimer.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

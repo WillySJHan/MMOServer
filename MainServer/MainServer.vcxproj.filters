@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Proto">
+      <UniqueIdentifier>{e1001b25-7abb-47e9-80b9-eb235a12330c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{753a5370-5101-4530-bdd0-0cb0b8c220bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>{b4757ad6-1d89-41cb-a2e0-524767427522}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientSession.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientSessionManager.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientProtocolManager.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Enum.pb.cc">
+      <Filter>Proto</Filter>
+    </ClCompile>
+    <ClCompile Include="Proto.pb.cc">
+      <Filter>Proto</Filter>
+    </ClCompile>
+    <ClCompile Include="Struct.pb.cc">
+      <Filter>Proto</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomManager.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="MainServer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Data.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigManager.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Area.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualField.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSession.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSessionManager.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientProtocolManager.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.pb.h">
+      <Filter>Proto</Filter>
+    </ClInclude>
+    <ClInclude Include="Proto.pb.h">
+      <Filter>Proto</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.pb.h">
+      <Filter>Proto</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomManager.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigManager.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Area.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualField.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Protobuf\protoc3.18.x\bin\Enum.proto">
+      <Filter>Proto</Filter>
+    </None>
+    <None Include="..\Protobuf\protoc3.18.x\bin\Proto.proto">
+      <Filter>Proto</Filter>
+    </None>
+    <None Include="..\Protobuf\protoc3.18.x\bin\Struct.proto">
+      <Filter>Proto</Filter>
+    </None>
+    <None Include="..\Protobuf\protoc3.18.x\bin\ProtoGenerator.bat">
+      <Filter>Proto</Filter>
+    </None>
+  </ItemGroup>
+</Project>
