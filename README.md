@@ -1,6 +1,8 @@
 # MMOServer
 C++, IOCP, Protocol Buffers, nlohmann  
-windows tcp socket server
+windows tcp socket server  
+500 dummy client connections
+
 
 
 # 영상
