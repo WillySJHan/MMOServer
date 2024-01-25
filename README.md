@@ -3,4 +3,4 @@
 # C++, Iocp, ProtocolBuffer
 
 # 영상
-https://youtu.be/g6iq_1_ZV_w
+https://www.youtube.com/watch?v=2H3eeCqbSYc
